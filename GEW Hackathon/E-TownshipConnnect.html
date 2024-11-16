@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Township Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #0047ab; /* Primary Color (Cobalt Blue) */
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .header .search-bar {
+            flex-grow: 1;
+            margin: 0 1rem;
+        }
+        .header .search-bar input {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .header .menu {
+            display: flex;
+            align-items: center;
+        }
+        .header .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        .header .menu a:hover {
+            text-decoration: underline;
+        }
+        .main-banner {
+            background-color: #87ceeb; /* Secondary Color (Sky Blue) */
+            color: #0047ab;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .main-banner h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .main-banner p {
+            font-size: 1.2rem;
+        }
+        .section-title {
+            text-align: center;
+            color: #0047ab; /* Primary Color */
+            margin: 2rem 0 1rem;
+        }
+        .content-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            padding: 0 2rem 2rem;
+        }
+        .content-box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content-box img {
+            width: 100%;
+            height: 150px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-bottom: 0.5rem;
+        }
+        .content-box h3 {
+            color: #0047ab;
+            margin: 0.5rem 0;
+        }
+        .footer {
+            background-color: #0047ab; /* Primary Color (Cobalt Blue) */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">E-Township Connect</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+            <a href="#">☰</a>
+        </div>
+    </div>
+    <div class="main-banner">
+        <h1>Welcome to E-Township Connect</h1>
+        <p>Your local e-commerce marketplace</p>
+    </div>
+
+    <h2 class="section-title">Product Categories</h2>
+    <div class="content-section">
+        <div class="content-box">
+            <img src="Food.jpeg" alt="Groceries and Food Items">
+            <h3>Groceries and Food Items</h3>
+        </div>
+        <div class="content-box">
+            <img src="Clothing.jpeg" alt="Clothing and Footwear">
+            <h3>Clothing and Footwear</h3>
+        </div>
+        <div class="content-box">
+            <img src="Electronics.jpeg" alt="Electronics and Mobile Phones">
+            <h3>Electronics and Mobile Phones</h3>
+        </div>
+        <div class="content-box">
+            <img src="Household.jpeg" alt="Household Goods">
+            <h3>Household Goods</h3>
+        </div>
+        <div class="content-box">
+            <img src="PersonalCare.jpeg" alt="Personal Care Products">
+            <h3>Personal Care Products</h3>
+        </div>
+        <div class="content-box">
+            <img src="Others.jpeg" alt="Others">
+            <h3>Others</h3>
+        </div>
+    </div>
+
+    <h2 class="section-title">Top Vendors</h2>
+    <div class="content-section">
+        <div class="content-box">
+            <img src="Cookies.jpeg" alt="Vendor 1">
+            <h3>Zethu's Cookies</h3>
+        </div>
+        <div class="content-box">
+            <img src="Kota.jpeg" alt="Vendor 2">
+            <h3>Sipho's Kotas</h3>
+        </div>
+        <div class="content-box">
+            <img src="Dresses.jpeg" alt="Vendor 3">
+            <h3>Marry's Dresses</h3>
+        </div>
+    </div>
+
+    <h2 class="section-title">Community Engagement</h2>
+    <div class="content-section">
+        <div class="content-box">
+            <img src="Events.jpeg" alt="Local Events and Promotions">
+            <h3>Local Events and Promotions</h3>
+        </div>
+        <div class="content-box">
+            <img src="Forums.jpeg" alt="Community Forums">
+            <h3>Community Forums</h3>
+        </div>
+        <div class="content-box">
+            <img src="Stories.jpeg" alt="Vendor Stories">
+            <h3>Vendor Stories</h3>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 E-Township Connect. All rights reserved.</p>
+    </div>
+    <script>
+        // JavaScript code for dynamic interactions can be added here
+    </script>
+</body>
+</html>
